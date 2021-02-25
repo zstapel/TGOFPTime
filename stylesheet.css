@@ -1,0 +1,63 @@
+@font-face {
+	font-family: GT Pressura Mono;
+	src: url('fonts/GT-Pressura-Mono-Regular-Trial.otf');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: HandjetVF;
+	src: url('fonts/HandjetVF-All.ttf');
+	font-weight: 300;
+}
+
+.time {
+	text-align: right;
+	margin-right: 20px;
+	font-family: HandjetVF;
+	font-weight: 300;
+	font-size: 28px;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.title {
+	font-family: GT Pressura Mono;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 38px;
+}
+
+.author {
+	font-family: GT Pressura Mono;
+	font-weight: 300;
+	text-align: center;
+	font-size: 20px;
+	margin-top: -28px;
+}
+
+.body {
+	font-family: GT Pressura Mono;
+	font-weight: 300;
+	font-size: 22px;
+	text-align: justify;
+	line-height: 28px;
+}
+
+.star {
+	font-family: GT Pressura Mono;
+	font-weight: 300;
+	text-align: center;
+	font-size: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
