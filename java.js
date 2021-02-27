@@ -1,9 +1,9 @@
 var myVar = setInterval(myTimer, 1000);
-
+var n ;
 function myTimer() {
   var d = new Date();
   var t = d.toLocaleTimeString();
-  var n = d.getHours();
+  n = d.getHours();
   document.getElementById("demo").innerHTML = t;
   console.log(n)
   var x = document.body;
@@ -32,16 +32,27 @@ function myTimer() {
   if ( n === 22) { x.style.backgroundColor = "#5F483C"}
   if ( n === 23) { x.style.backgroundColor = "#4D382D"}
 }
+  // do something }
 
+document.addEventListener('mousemove', e => {
+if ( n === 0 || n === 1 || n === 2 || n === 3 || n === 4 || n === 20 || n === 21 || n === 22 || n === 23) {
+  mousex = e.clientX;
+  mousey = e.clientY;
+  light = document.getElementById("spotlight");
+  light.style.top = (mousey - 125) + "px";
+  light.style.left = (mousex - 125) + "px";
+  console.log(mousex,mousey);
+}
 
-// if n = 0 == #21150E
-// var myVar = setInterval(setColor, 1000);
- 
-// function setColor() {
-//   var x = document.body;
-//   x.style.backgroundColor = x.style.backgroundColor == "blue" ? "pink" : "blue";
+})
+
+// if ( n === 5 || n === 6 || n === 7 || n === 8 || n === 9 || n === 10 || n === 11 || n === 12 || n === 13 || n === 14 || n === 15 || n === 16 || n === 17 || n === 18 || n === 19 ||) {
+//   off = document.getElementById("off");
+  
 // }
- 
-// function stopColor() {
-//   clearInterval(myVar);
-// }
+//   // mousex = e.clientX;
+//   // mousey = e.clientY;
+  // off = document.getElementById("off");
+  // off.style.top = (mousey - 125) + "px";
+  // off.style.left = (mousex - 125) + "px";
+
