@@ -35,6 +35,7 @@ function myTimer() {
   // do something }
 
 document.addEventListener('mousemove', e => {
+
 if ( n === 0 || n === 1 || n === 2 || n === 3 || n === 4 || n === 20 || n === 21 || n === 22 || n === 23) {
   mousex = e.clientX;
   mousey = e.clientY;
@@ -42,17 +43,12 @@ if ( n === 0 || n === 1 || n === 2 || n === 3 || n === 4 || n === 20 || n === 21
   light.style.top = (mousey - 125) + "px";
   light.style.left = (mousex - 125) + "px";
   console.log(mousex,mousey);
+  light.style.display = "block";
 }
-
 })
-
 // if ( n === 5 || n === 6 || n === 7 || n === 8 || n === 9 || n === 10 || n === 11 || n === 12 || n === 13 || n === 14 || n === 15 || n === 16 || n === 17 || n === 18 || n === 19 ||) {
-//   off = document.getElementById("off");
-  
+//   light = document.getElementById("spotlight");
+//   light.style.display = none;
 // }
-//   // mousex = e.clientX;
-//   // mousey = e.clientY;
-  // off = document.getElementById("off");
-  // off.style.top = (mousey - 125) + "px";
-  // off.style.left = (mousex - 125) + "px";
+
 
