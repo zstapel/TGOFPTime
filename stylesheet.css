@@ -13,8 +13,7 @@
 	width: 250px;
 	height: 250px;
 	border-radius: 300px;
-	background: rgb(238,224,153);
-	background: radial-gradient(circle, rgba(238,224,153,1) 0%, rgba(248,238,188,0.2455357142857143) 100%);
+	background: #F4E8A6;
 	position: absolute;
 	z-index: -1;
 	top: 0;
